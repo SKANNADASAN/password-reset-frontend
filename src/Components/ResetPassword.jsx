@@ -73,7 +73,7 @@ function ResetPassword() {
 
   useEffect(() => {
     validateToken();
-  }, []);
+  }, );
 
   return (
     <>
