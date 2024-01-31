@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@media (max-width: 371px) {
+  .postman{
+      font-size: 13px !important;
+  }
+  .form-box{
+      position: relative !important;
+      top: 35px !important;
+  }
+  .para{
+      line-height: 1.2em;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.login-form-cont{
+  height: 100vh;
+  padding: 15vh 27vw;
+}
+
+.login-form{
+  width: 120%;
+}
+
+.button-login{
+  margin: 1em 0;
+  width: 100% !important;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.signup-form{
+  width: 50% !important;
 }
